@@ -1,0 +1,51 @@
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.first-section{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around;
+  align-items: center; */
+  margin: 100px 0;
+}
+
+.first-section-one{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first-section-one > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section-one > div > p{
+  width: 70%;
+}
+
+.first-section-two{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+
+
+.first-section-three{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
